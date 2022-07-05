@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Fira Code', monospace;
-    font-family: 'Fira Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -22,18 +19,157 @@ body {
 }
 
 .top-banner p {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 100px 50px 100px;
 }
 
 .donate-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(#FF5959, tomato);
     color: white;
     font-weight: 700;
-    padding: 20px 40px;
-    border-radius: 40px;
+    padding: 18px 35px;
+    border-radius: 7px;
 }
 
 .top-banner-content {
     padding: 100px 260px 10px 260px;
+}
+
+.lets-donate {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.lets-donate h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.money-amount {
+    display: flex;
+    margin: 0px 300px;
+
+}
+
+.money-amount h1 {
+    font-size: 30px;
+    margin: 30px 0px 40px 20px;
+    padding: 30px 20px 30px 20px;
+    color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 7px;
+    /* box-shadow: 10px 10px 20px gray; */
+}
+
+#moneyAmountFixed {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.input-box {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.input-box input {
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #cecccc;
+}
+
+.donate-now {
+    text-align: center;
+    padding: 50px 0px 100px 0px;
+}
+
+.donate-plan {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.donate-plan h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.donate-plan p {
+    margin: 10px 300px 10px 300px;
+    color: #8a8a8a;
+}
+
+.donate-plan-content {
+    margin: 10px 130px 10px 130px;
+    padding: 10px 10px 100px 10px;
+    display: flex;
+}
+
+#donate-plan-card {
+    margin: 10px 10px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: #EDF5F6;
+}
+
+#donate-plan-card2 {
+    margin: 10px 10px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: #FFEEEE;
+}
+
+#donate-plan-card3 {
+    margin: 10px 10px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: #FFF4D6;
+}
+
+.para-color {
+    color: #8a8a8a;
+}
+
+.contribute {
+    display: flex;
+    margin: 20px 150px;
+    padding-bottom: 90px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.contribute img {
+    width: 100%;
+    height: 480px;
+    border-radius: 7px;
+}
+
+#contr-content {
+    padding: 10px 0px 10px 50px;
+}
+
+#contr-content h1 {
+    font-size: 40px;
+}
+
+#contr-content p {
+    padding-bottom: 30px;
+}
+
+footer h1 {
+    font-size: 30px;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+
+footer {
+    color: white;
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 20px 0px;
+
 }
