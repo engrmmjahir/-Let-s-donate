@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    width: 100%;
+    height: 650px;
+    background-image: url(images/donation12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7; */
+    text-align: center;
+    color: white;
+}
+
+.top-banner h1 {
+    font-size: 65px;
+}
+
+.top-banner p {
+    padding: 0px 50px 50px 50px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+.top-banner-content {
+    padding: 100px 260px 10px 260px;
+}
